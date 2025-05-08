@@ -22,3 +22,8 @@ guest6 = guests.pop(2)
 print(f"Sorry {guest6}, we will have to do dinner again sometime.")
 
 print(f"Hey {guests[0]} and {guests[1]} glad you both can still make it!")
+
+del guests[0]
+del guests[0]
+
+print(guests)
